@@ -18,7 +18,6 @@ function App() {
     }, []);
 
     return (
-        //https://stablediffusionweb.com
         <Parallax pages={4}>
             <Container>
                 <ParallaxLayer
@@ -53,7 +52,8 @@ function App() {
                 <Roll right>
                     <h1>hhhddddddddd</h1>
                 </Roll>
-//https://www.react-reveal.com/
+                {/*https://www.react-reveal.com/*/}
+                {/* https://stablediffusionweb.com*/}
 
                 {/*            <div className="vh-100 d-flex bg-primary"></div>
                 <div data-aos="fade-down-right">
