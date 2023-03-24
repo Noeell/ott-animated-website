@@ -1,6 +1,7 @@
 {
   "name": "ott-animated-website",
   "private": true,
+  "type": "module",
   "version": "0.0.0",
   "homepage": "noeell.github.io/ott-animated-website",
   "dependencies": {
