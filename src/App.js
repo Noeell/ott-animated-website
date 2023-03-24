@@ -12,10 +12,10 @@ import Roll from 'react-reveal/Roll.js';
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown.d.ts';
 
 function App() {
-    useEffect(() => {
+/*    useEffect(() => {
         AOS.init();
         AOS.refresh();
-    }, []);
+    }, []);*/
 
     return (
         <Parallax pages={4}>
