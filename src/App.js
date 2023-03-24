@@ -4,9 +4,7 @@ import mars from './mars.png'
 import chicken from './img-withoutbg.png'
 import {Parallax, ParallaxLayer} from "@react-spring/parallax";
 import {Container} from "react-bootstrap";
-import AOS from "aos";
 import "aos/dist/aos.css";
-import {useEffect} from "react";
 import Zoom from 'react-reveal/Zoom.js';
 import Roll from 'react-reveal/Roll.js';
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown.d.ts';
