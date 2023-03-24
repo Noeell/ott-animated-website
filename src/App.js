@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 import {useEffect} from "react";
 import Zoom from 'react-reveal/Zoom.js';
 import Roll from 'react-reveal/Roll.js';
-import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
+import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown.d.ts';
 
 function App() {
     useEffect(() => {
