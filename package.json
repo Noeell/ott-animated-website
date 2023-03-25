@@ -1,9 +1,9 @@
 {
+  "homepage": "http://noeell.github.io/ott-animated-website",
   "name": "ott-animated-website",
   "private": true,
   "type": "module",
   "version": "0.0.0",
-  "homepage": "noeell.github.io/ott-animated-website",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
