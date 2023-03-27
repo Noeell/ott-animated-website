@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/noeell.github.io/ott-animated-website/static/css/main.00f78af0.css",
+    "main.js": "/noeell.github.io/ott-animated-website/static/js/main.5a90b492.js",
+    "static/js/787.f225d02e.chunk.js": "/noeell.github.io/ott-animated-website/static/js/787.f225d02e.chunk.js",
+    "static/media/weltall.png": "/noeell.github.io/ott-animated-website/static/media/weltall.4621375056e3dfe987d9.png",
+    "static/media/mars.png": "/noeell.github.io/ott-animated-website/static/media/mars.f0c3f37cd6ae6f9ac7a8.png",
+    "static/media/img-withoutbg.png": "/noeell.github.io/ott-animated-website/static/media/img-withoutbg.c6254b7c65bd7e3b4d3f.png",
+    "index.html": "/noeell.github.io/ott-animated-website/index.html",
+    "main.00f78af0.css.map": "/noeell.github.io/ott-animated-website/static/css/main.00f78af0.css.map",
+    "main.5a90b492.js.map": "/noeell.github.io/ott-animated-website/static/js/main.5a90b492.js.map",
+    "787.f225d02e.chunk.js.map": "/noeell.github.io/ott-animated-website/static/js/787.f225d02e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00f78af0.css",
+    "static/js/main.5a90b492.js"
+  ]
+}
