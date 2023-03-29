@@ -112,7 +112,6 @@ function App() {
                 </Col>
             </Row>
             <br/><br/><br/>
-            <Row>
 
             {/*https://www.react-reveal.com/*/}
             {/* https://stablediffusionweb.com*/}
