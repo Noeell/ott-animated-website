@@ -32,7 +32,14 @@ function App() {
                 style={{
                     backgroundImage: `url(${chicken})`, backgroundSize: '20%'
                 }}/>
-
+            <ParallaxLayer
+                horizontal
+                offset={1.2}
+                speed={2.5}
+                factor={2}
+                style={{
+                    backgroundImage: `url(${rocket})`, backgroundSize: '10%', backgroundPosition: 'right'
+                }}/>
 
             <ParallaxLayer offset={0.2} speed={0}>
                 <h1 className="text-center">Welcome to chicken planet!</h1>
