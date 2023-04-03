@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ott-animated-website/static/css/main.418084d1.css",
-    "main.js": "/ott-animated-website/static/js/main.09c0fa77.js",
+    "main.css": "/ott-animated-website/static/css/main.960ebe6b.css",
+    "main.js": "/ott-animated-website/static/js/main.a7d223a7.js",
     "static/js/787.f225d02e.chunk.js": "/ott-animated-website/static/js/787.f225d02e.chunk.js",
     "static/media/weltall.png": "/ott-animated-website/static/media/weltall.4621375056e3dfe987d9.png",
     "static/media/mars.png": "/ott-animated-website/static/media/mars.f0c3f37cd6ae6f9ac7a8.png",
     "static/media/img-withoutbg.png": "/ott-animated-website/static/media/img-withoutbg.c6254b7c65bd7e3b4d3f.png",
     "static/media/rocket-ship.png": "/ott-animated-website/static/media/rocket-ship.e57ed51388b6e4c7d958.png",
     "index.html": "/ott-animated-website/index.html",
-    "main.418084d1.css.map": "/ott-animated-website/static/css/main.418084d1.css.map",
-    "main.09c0fa77.js.map": "/ott-animated-website/static/js/main.09c0fa77.js.map",
+    "main.960ebe6b.css.map": "/ott-animated-website/static/css/main.960ebe6b.css.map",
+    "main.a7d223a7.js.map": "/ott-animated-website/static/js/main.a7d223a7.js.map",
     "787.f225d02e.chunk.js.map": "/ott-animated-website/static/js/787.f225d02e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.418084d1.css",
-    "static/js/main.09c0fa77.js"
+    "static/css/main.960ebe6b.css",
+    "static/js/main.a7d223a7.js"
   ]
 }
