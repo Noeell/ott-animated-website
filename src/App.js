@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import mars from './mars.png'
 import chicken from './img-withoutbg.png'
-import rocket from './rocket-ship.png'
+import rocket from './rocket-svgrepo-com.svg'
 import {Parallax, ParallaxLayer} from "@react-spring/parallax";
 import {Col, Container, Row} from "react-bootstrap";
 import "aos/dist/aos.css";
@@ -29,12 +29,11 @@ function App() {
                     backgroundImage: `url(${chicken})`, backgroundSize: '20%'
                 }}/>
             <ParallaxLayer
-                horizontal
                 offset={1.2}
-                speed={2.5}
+                speed={0}
                 factor={2}
                 style={{
-                    backgroundImage: `url(${rocket})`, backgroundSize: '10%', backgroundPosition: 'right'
+                    backgroundImage: `url(${rocket})`, backgroundSize: '100%', backgroundPosition: 'center'
                 }}/>
 
             <ParallaxLayer offset={0.2} speed={0}>
