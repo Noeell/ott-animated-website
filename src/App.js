@@ -4,19 +4,15 @@ import mars from './mars.png'
 import chicken from './img-withoutbg.png'
 import rocket from './rocket-ship.png'
 import {Parallax, ParallaxLayer} from "@react-spring/parallax";
-import {Container, Row, Col} from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import "aos/dist/aos.css";
 import Zoom from 'react-reveal/Zoom.js';
 import Roll from 'react-reveal/Roll.js';
-import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown.d.ts';
+import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 
 function App() {
-    /*    useEffect(() => {
-            AOS.init();
-            AOS.refresh();
-        }, []);*/
 
-    return (<Parallax pages={5}>
+    return (<Parallax pages={8}>
         <Container>
             <ParallaxLayer
                 offset={1}
@@ -42,11 +38,13 @@ function App() {
                 }}/>
 
             <ParallaxLayer offset={0.2} speed={0}>
-                <h1 className="text-center">Welcome to chicken planet!</h1>
+                <h1 className="text-center colorizeText">Welcome to chicken planet!</h1>
                 <br/><br/><br/>
-                <h2 className="text-center">Scroll down to continue...</h2>
-                <br/><br/>
-                <KeyboardDoubleArrowDownIcon/>
+                <h2 className="text-center turn">Scroll down to continue...</h2>
+                <br/><br/><br/>
+                <div className="text-center arrow">
+                    <KeyboardDoubleArrowDownIcon className="rotate" fontSize="large"/>
+                </div>
             </ParallaxLayer>
             <div className="mydiv">
                 <Zoom>
@@ -110,30 +108,18 @@ function App() {
                     <Roll right>
                         <h1>Featherlandia</h1>
                         <h5>An Avian Adventure Like No Other</h5>
-                        <p>Welcome to Featherlandia, a planet where the sky is always filled with the graceful flapping of wings. This 4-day adventure will take you on a tour of the planet's unique chicken markets, expansive aviaries, and stunning natural wonders.</p>
+                        <p>Welcome to Featherlandia, a planet where the sky is always filled with the graceful flapping
+                            of wings. This 4-day adventure will take you on a tour of the planet's unique chicken
+                            markets, expansive aviaries, and stunning natural wonders.</p>
                         <p>
-                            Explore the rich history and culture of chickens, and their significance to Featherlandia's traditions and customs. The planet's vibrant art scene is also dedicated to the beauty of birds, with intricate feather art and sculptures decorating the streets.</p>
+                            Explore the rich history and culture of chickens, and their significance to Featherlandia's
+                            traditions and customs. The planet's vibrant art scene is also dedicated to the beauty of
+                            birds, with intricate feather art and sculptures decorating the streets.</p>
                         <br/>
                         <h4>1'800$</h4>
                     </Roll>
                 </Col>
             </Row>
-            <br/><br/><br/>
-
-            {/*https://www.react-reveal.com/*/}
-            {/* https://stablediffusionweb.com*/}
-
-            {/*            <div className="vh-100 d-flex bg-primary"></div>
-                <div data-aos="fade-down-right">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                    ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                    dolores et ea rebum. Stet clita kasd gusdfsfdbergren, no sea takimata sanctus est Lorem ipsum dolor
-                    sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                    justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                    ipsum dolor sit amet.
-                </div>
-                <div className="vh-100 d-flex bg-primary"></div>*/}
         </Container>
     </Parallax>);
 }

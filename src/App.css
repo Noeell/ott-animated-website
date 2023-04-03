@@ -61,3 +61,74 @@ p {
     text-align: end;
 }
 
+.colorizeText {
+    color: white;
+}
+
+.arrow {
+    color: white;
+    transform: scale(2);
+}
+
+.colorizeText:hover {
+    animation-name: colorize;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.rotate:hover {
+    animation-name: turn360;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.turn:hover {
+    animation-name: pulse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorize {
+    0% {
+        color: red;
+    }
+    16.67% {
+        color: orange;
+    }
+    33.33% {
+        color: yellow;
+    }
+    50% {
+        color: green;
+    }
+    66.67% {
+        color: blue;
+    }
+    83.33% {
+        color: indigo;
+    }
+    100% {
+        color: red;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes turn360 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
