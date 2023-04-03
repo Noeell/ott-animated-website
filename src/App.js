@@ -9,10 +9,16 @@ import "aos/dist/aos.css";
 import Zoom from 'react-reveal/Zoom.js';
 import Roll from 'react-reveal/Roll.js';
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
+import chickenOnPlanet from './chicken_on_planet.png'
+import chickentopia from './chickentopia.png'
+import featherlandia from './Featherlandia.png'
+import clucktopolis from './clucktopolis.png'
+import Card from '@mui/material/Card';
+import {CardContent, Rating, Typography} from "@mui/material";
 
 function App() {
 
-    return (<Parallax pages={8}>
+    return (<Parallax pages={12}>
         <Container>
             <ParallaxLayer
                 offset={1}
@@ -61,6 +67,7 @@ function App() {
                         with
                         locally sourced ingredients by skilled chefs.</p>
                     <br/>
+                    <img src={chickentopia} alt="chicktopia"/>
                     <h4>1'500$</h4>
                 </Roll>
             </div>
@@ -71,7 +78,7 @@ function App() {
                     <Roll right>
                         <h1>Welcome to Clucktopolis</h1>
                         <h5>A Planet of Feathers and Fun</h5>
-                        <p>Step into Chickentopia, a planet that's home to all things chicken. This 5-day excursion will
+                        <p>Step into Clucktopolis, a planet that's home to all things chicken. This 5-day excursion will
                             take you on a tour of the planet's lively chicken markets, sprawling chicken farms, and
                             stunning landscapes.</p>
                         <p>
@@ -79,6 +86,7 @@ function App() {
                             fascinating history and culture of chickens and their significance in the planet's
                             society.</p>
                         <br/>
+                        <img src={clucktopolis} alt="clucktopolis"/>
                         <h4>2'500$</h4>
                     </Roll>
                 </Col>
@@ -97,6 +105,7 @@ function App() {
                             ingredients. The planet is also home to various chicken-inspired art and cultural
                             activities, so there is something for everyone.</p>
                         <br/>
+                        <img src={chickenOnPlanet} alt="chickenOnPlanet"/>
                         <h4>3'500$</h4>
                     </Roll>
                 </Col>
@@ -115,8 +124,73 @@ function App() {
                             traditions and customs. The planet's vibrant art scene is also dedicated to the beauty of
                             birds, with intricate feather art and sculptures decorating the streets.</p>
                         <br/>
+                        <img src={featherlandia} alt="featherlandia"/>
                         <h4>1'800$</h4>
                     </Roll>
+                </Col>
+            </Row>
+            <Row>
+                <Col className="col-6">
+                    <Card sx={{minWidth: 275}} style={{backgroundColor: "skyblue"}}>
+                        <CardContent>
+                            <Typography sx={{fontSize: 22}} color="text.secondary" gutterBottom>
+                                Nice Trip
+                            </Typography>
+                            <Typography sx={{mb: 1.5}} color="text.secondary">
+                                I recently embarked on a 7-day adventure to Chirp World, and it was truly a journey to
+                                the heart of chicken paradise. The chicken sanctuaries and natural habitats were
+                                breathtaking, and the markets were vibrant with a variety of local goods. The chicken
+                                dishes were nothing short of spectacular.
+                            </Typography>
+                            <Typography sx={{mb: 1.5}} color="text.secondary">
+                                - Emilia Rodriguez
+                            </Typography>
+                            <Rating name="read-only" value={5} readOnly/>
+                        </CardContent>
+                    </Card>
+                </Col>
+            </Row>
+            <br/>
+            <br/>
+            <Row>
+                <Col className="col-6">
+                    <Card sx={{minWidth: 275}} style={{backgroundColor: "skyblue"}}>
+                        <CardContent>
+                            <Typography sx={{fontSize: 22}} color="text.secondary" gutterBottom>
+                                Cool Adventure
+                            </Typography>
+                            <Typography sx={{mb: 1.5}} color="text.secondary">
+                                The egg collecting and chicken racing were definitely highlights of the trip. It was
+                                worth every penny for a unique 3-day adventure!
+                                I didn't like the chicken dishes, they looked very scruffy.
+                            </Typography>
+                            <Typography sx={{mb: 1.5}} color="text.secondary">
+                                - Brandon Lee
+                            </Typography>
+                            <Rating name="read-only" value={4} readOnly/>
+                        </CardContent>
+                    </Card>
+                </Col>
+            </Row>
+            <br/>
+            <br/>
+            <Row>
+                <Col className="col-6">
+                    <Card sx={{minWidth: 275}} style={{backgroundColor: "skyblue"}}>
+                        <CardContent>
+                            <Typography sx={{fontSize: 22}} color="text.secondary" gutterBottom>
+                                Danger!!
+                            </Typography>
+                            <Typography sx={{mb: 1.5}} color="text.secondary">
+                                My 2 year old was torn to pieces and gobbled down by a dangerous giant chicken!!
+                                But the view was really nice there. :)
+                            </Typography>
+                            <Typography sx={{mb: 1.5}} color="text.secondary">
+                                - Hans Nödwellewüsse
+                            </Typography>
+                            <Rating name="read-only" value={3} readOnly/>
+                        </CardContent>
+                    </Card>
                 </Col>
             </Row>
         </Container>
