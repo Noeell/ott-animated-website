@@ -1,19 +1,23 @@
 {
   "files": {
     "main.css": "/ott-animated-website/static/css/main.960ebe6b.css",
-    "main.js": "/ott-animated-website/static/js/main.b9069298.js",
+    "main.js": "/ott-animated-website/static/js/main.0e148734.js",
     "static/js/787.f225d02e.chunk.js": "/ott-animated-website/static/js/787.f225d02e.chunk.js",
     "static/media/weltall.png": "/ott-animated-website/static/media/weltall.4621375056e3dfe987d9.png",
     "static/media/mars.png": "/ott-animated-website/static/media/mars.f0c3f37cd6ae6f9ac7a8.png",
     "static/media/img-withoutbg.png": "/ott-animated-website/static/media/img-withoutbg.c6254b7c65bd7e3b4d3f.png",
+    "static/media/clucktopolis.png": "/ott-animated-website/static/media/clucktopolis.8d344a511b18f4efded1.png",
+    "static/media/chickentopia.png": "/ott-animated-website/static/media/chickentopia.2d9834cd58971254be24.png",
+    "static/media/Featherlandia.png": "/ott-animated-website/static/media/Featherlandia.16a2cd385e088f0fec0f.png",
+    "static/media/chicken_on_planet.png": "/ott-animated-website/static/media/chicken_on_planet.d4d994af52daf82c9723.png",
     "static/media/rocket-svgrepo-com.svg": "/ott-animated-website/static/media/rocket-svgrepo-com.5dda1fb04fe0216b8973094206ef66c3.svg",
     "index.html": "/ott-animated-website/index.html",
     "main.960ebe6b.css.map": "/ott-animated-website/static/css/main.960ebe6b.css.map",
-    "main.b9069298.js.map": "/ott-animated-website/static/js/main.b9069298.js.map",
+    "main.0e148734.js.map": "/ott-animated-website/static/js/main.0e148734.js.map",
     "787.f225d02e.chunk.js.map": "/ott-animated-website/static/js/787.f225d02e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.960ebe6b.css",
-    "static/js/main.b9069298.js"
+    "static/js/main.0e148734.js"
   ]
 }
