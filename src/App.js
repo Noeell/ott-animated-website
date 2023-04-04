@@ -14,32 +14,32 @@ import chickentopia from './chickentopia.png'
 import featherlandia from './Featherlandia.png'
 import clucktopolis from './clucktopolis.png'
 import Card from '@mui/material/Card';
-import {CardContent, Rating, Typography} from "@mui/material";
+import {CardContent, Link, Rating, Table, TableBody, TableCell, TableHead, TableRow, Typography} from "@mui/material";
 
 function App() {
 
     return (<Parallax pages={12}>
         <Container>
             <ParallaxLayer
-                offset={1}
+                offset={0.8}
                 speed={0.1}
                 factor={2}
                 style={{
                     backgroundImage: `url(${mars})`, backgroundSize: '80%', backgroundPosition: 'center'
                 }}/>
             <ParallaxLayer
-                offset={1.8}
+                offset={1.6}
                 speed={1.5}
                 factor={2}
                 style={{
                     backgroundImage: `url(${chicken})`, backgroundSize: '20%'
                 }}/>
             <ParallaxLayer
-                offset={1.2}
+                offset={1}
                 speed={0}
                 factor={2}
                 style={{
-                    backgroundImage: `url(${rocket})`, backgroundSize: '100%', backgroundPosition: 'center'
+                    backgroundImage: `url(${rocket})`, backgroundSize: '60%', backgroundPosition: 'center'
                 }}/>
 
             <ParallaxLayer offset={0.2} speed={0}>
@@ -94,7 +94,7 @@ function App() {
             <br/><br/><br/>
             <Row>
                 <Col className="col-6">
-                    <Roll right>
+                    <Roll left>
                         <h1>Chirp World</h1>
                         <h5>A Journey to the Heart of Chicken Paradise</h5>
                         <p>Welcome to Chirp World, a planet entirely dedicated to our feathered friends. This 7-day
@@ -131,64 +131,102 @@ function App() {
             </Row>
             <Row>
                 <Col className="col-6">
-                    <Card sx={{minWidth: 275}} style={{backgroundColor: "skyblue"}}>
-                        <CardContent>
-                            <Typography sx={{fontSize: 22}} color="text.secondary" gutterBottom>
-                                Nice Trip
-                            </Typography>
-                            <Typography sx={{mb: 1.5}} color="text.secondary">
-                                I recently embarked on a 7-day adventure to Chirp World, and it was truly a journey to
-                                the heart of chicken paradise. The chicken sanctuaries and natural habitats were
-                                breathtaking, and the markets were vibrant with a variety of local goods. The chicken
-                                dishes were nothing short of spectacular.
-                            </Typography>
-                            <Typography sx={{mb: 1.5}} color="text.secondary">
-                                - Emilia Rodriguez
-                            </Typography>
-                            <Rating name="read-only" value={5} readOnly/>
-                        </CardContent>
-                    </Card>
+                    <Roll left>
+                        <Card sx={{minWidth: 275}} style={{backgroundColor: "skyblue"}}>
+                            <CardContent>
+                                <Typography sx={{fontSize: 22}} color="text.secondary" gutterBottom>
+                                    Nice Trip
+                                </Typography>
+                                <Typography sx={{mb: 1.5}} color="text.secondary">
+                                    I recently embarked on a 7-day adventure to Chirp World, and it was truly a journey
+                                    to
+                                    the heart of chicken paradise. The chicken sanctuaries and natural habitats were
+                                    breathtaking, and the markets were vibrant with a variety of local goods. The
+                                    chicken
+                                    dishes were nothing short of spectacular.
+                                </Typography>
+                                <Typography sx={{mb: 1.5}} color="text.secondary">
+                                    - Emilia Rodriguez
+                                </Typography>
+                                <Rating name="read-only" value={5} readOnly/>
+                            </CardContent>
+                        </Card>
+                    </Roll>
                 </Col>
             </Row>
             <br/>
             <br/>
             <Row>
                 <Col className="col-6">
-                    <Card sx={{minWidth: 275}} style={{backgroundColor: "skyblue"}}>
-                        <CardContent>
-                            <Typography sx={{fontSize: 22}} color="text.secondary" gutterBottom>
-                                Cool Adventure
-                            </Typography>
-                            <Typography sx={{mb: 1.5}} color="text.secondary">
-                                The egg collecting and chicken racing were definitely highlights of the trip. It was
-                                worth every penny for a unique 3-day adventure!
-                                I didn't like the chicken dishes, they looked very scruffy.
-                            </Typography>
-                            <Typography sx={{mb: 1.5}} color="text.secondary">
-                                - Brandon Lee
-                            </Typography>
-                            <Rating name="read-only" value={4} readOnly/>
-                        </CardContent>
-                    </Card>
+                    <Roll left>
+                        <Card sx={{minWidth: 275}} style={{backgroundColor: "skyblue"}}>
+                            <CardContent>
+                                <Typography sx={{fontSize: 22}} color="text.secondary" gutterBottom>
+                                    Cool Adventure
+                                </Typography>
+                                <Typography sx={{mb: 1.5}} color="text.secondary">
+                                    The egg collecting and chicken racing were definitely highlights of the trip. It was
+                                    worth every penny for a unique 3-day adventure!
+                                    I didn't like the chicken dishes, they looked very scruffy.
+                                </Typography>
+                                <Typography sx={{mb: 1.5}} color="text.secondary">
+                                    - Brandon Lee
+                                </Typography>
+                                <Rating name="read-only" value={4} readOnly/>
+                            </CardContent>
+                        </Card>
+                    </Roll>
                 </Col>
             </Row>
             <br/>
             <br/>
             <Row>
                 <Col className="col-6">
-                    <Card sx={{minWidth: 275}} style={{backgroundColor: "skyblue"}}>
+                    <Roll left>
+                        <Card sx={{minWidth: 275}} style={{backgroundColor: "skyblue"}}>
+                            <CardContent>
+                                <Typography sx={{fontSize: 22}} color="text.secondary" gutterBottom>
+                                    Danger!!
+                                </Typography>
+                                <Typography sx={{mb: 1.5}} color="text.secondary">
+                                    My 2 year old was torn to pieces and gobbled down by a dangerous giant chicken!!
+                                    But the view was really nice there. :)
+                                </Typography>
+                                <Typography sx={{mb: 1.5}} color="text.secondary">
+                                    - Hans Nödwellewüsse
+                                </Typography>
+                                <Rating name="read-only" value={3} readOnly/>
+                            </CardContent>
+                        </Card>
+                    </Roll>
+                </Col>
+            </Row>
+            <br/><br/>
+            <Row>
+                <Col className="col-3">
+                    <Card sx={{minWidth: 275}} style={{backgroundColor: "cream"}}>
                         <CardContent>
-                            <Typography sx={{fontSize: 22}} color="text.secondary" gutterBottom>
-                                Danger!!
-                            </Typography>
-                            <Typography sx={{mb: 1.5}} color="text.secondary">
-                                My 2 year old was torn to pieces and gobbled down by a dangerous giant chicken!!
-                                But the view was really nice there. :)
-                            </Typography>
-                            <Typography sx={{mb: 1.5}} color="text.secondary">
-                                - Hans Nödwellewüsse
-                            </Typography>
-                            <Rating name="read-only" value={3} readOnly/>
+                            <Table>
+                                <TableHead>
+                                    <TableRow>
+                                        <TableCell sx={{fontSize: 22}}>Content declaration</TableCell>
+                                    </TableRow>
+                                </TableHead>
+                                <TableBody>
+                                    <TableRow>
+                                        <TableCell><Link href="https://hotpot.ai/art-generator">AI Image
+                                            Generator</Link> </TableCell>
+                                    </TableRow>
+                                    <TableRow>
+                                        <TableCell><Link
+                                            href="https://developer.mozilla.org/en-US/docs/Web/SVG">...</Link>
+                                        </TableCell>
+                                    </TableRow>
+                                    <TableRow>
+                                        <TableCell><Link href="https://www.svgrepo.com/">Rocket SVG</Link> </TableCell>
+                                    </TableRow>
+                                </TableBody>
+                            </Table>
                         </CardContent>
                     </Card>
                 </Col>
