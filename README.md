@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# ott-animated-website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## GitHub-Pages
 
-## Available Scripts
+https://noeell.github.io/ott-animated-website/
 
-In the project directory, you can run:
+## Selbstevaluation
 
-### `npm start`
+### Was lief gut?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Der Allgemeine Umgang mit React war uns bekannt und wir hatten keine Probleme damit.
+- Das zusammenarbeiten via GitHub ging problemlos.
+- Das automatische Deployen auf GitHub Pages ging nach ein paar fixes auch sehr zuverlässig.
+- Die CSS & SVG Animationen zu erstellen war auch gut machbar (Die CSS Animationen sind ganz oben auf der Page im
+  Welcome & scroll down Text sowie dem Icon).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Was lief nicht so gut?
 
-### `npm test`
+- Anfangs hatten wir Probleme mit den Animationen. Sie wurden trotz implementierung nicht auf der Website angezeigt.
+  Später merkten wir, dass dies ein Bug ist und umgangen werden kann, indem man die Dev-Tools öffnet.
+- Einmal war die Pipeline auf GitHub pages inkorrekt, was uns ein wenig Zeit kostete.
+- Mit Parallax ist es schwer, den Content auf die unterschiedlichen Screen-sizes anzupassen.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Was würden wir nächstes Mal ansters machen?
 
-### `npm run build`
+- Bei der Implementierung von Animationen sollten wir mehr Zeit für Tests und Fehlersuche einplanen, um sicherzustellen,
+  dass sie ordnungsgemäss funktionieren. Vielleicht hätte Animate-on-Scroll bei uns auch funktioniert, wenn wir noch
+  weiter versucht hätten.
+- Insgesamt würder wir mehr Zeit für anfällig auftretende Fehler einberechnen.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Was haben wir gelernt? Was war neu?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Wir haben in diesem Projekt zum ersten Mal mit Scrolling-Effekten gearbeitet.
+- Ebenfalls neu war das ändern vom Favicon.
+- Das automatische deployen auf GitHub Pages war uns noch nicht bekannt, allerdings war es sehr interessant umzusetzen.
+- CSS-Animationen haben wir vor längerer Zeit schonmal erstellt, dennoch hat es unser CSS Wissen aufgefrischt.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Wie wurde die Arbeit im Team aufgeteilt?
 
-### `npm run eject`
+Wir haben gut zusammengearbeitet. Zu Beginn programmierten wir oft zusammen, später haben wir uns dann aufgeteilt und so
+waren wir zeitlich effizienter.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Selbsteinschätzung
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Wir habe alle Requirements bis auf das optionale einbinden von komplexeren Effekten mit React-Spring oder Framer-Motion
+erfüllt.
+Die Website wird per push auf das Repo automatisch via GitHub Actions auf GitHub Pages Deployed (war optional).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### `Note: 5.5`

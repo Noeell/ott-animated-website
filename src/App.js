@@ -18,7 +18,7 @@ import {CardContent, Link, Rating, Table, TableBody, TableCell, TableHead, Table
 
 function App() {
 
-    return (<Parallax pages={12}>
+    return (<Parallax pages={7}>
         <Container>
             <ParallaxLayer
                 offset={0.8}
@@ -215,7 +215,7 @@ function App() {
                                 <TableBody>
                                     <TableRow>
                                         <TableCell>
-                                            <Link href="https://hotpot.ai/art-generator">AI Image Generator</Link> 
+                                            <Link href="https://hotpot.ai/art-generator">AI Image Generator</Link>
                                         </TableCell>
                                     </TableRow>
                                     <TableRow>
@@ -225,7 +225,8 @@ function App() {
                                     </TableRow>
                                     <TableRow>
                                         <TableCell>
-                                            <Link href="https://developer.mozilla.org/en-US/docs/Web/SVG">animateTransform</Link>
+                                            <Link
+                                                href="https://developer.mozilla.org/en-US/docs/Web/SVG">animateTransform</Link>
                                         </TableCell>
                                     </TableRow>
                                     <TableRow>
@@ -235,9 +236,11 @@ function App() {
                                     </TableRow>
                                     <TableRow>
                                         <TableCell>
-                                            <Link href="https://www.freepik.com/premium-vector/cute-astronaut-riding-astronaut-chicken-waving-hand-cartoon-vector-icon-illustration-science_25528645.htm">astronaut chicken</Link>
+                                            <Link
+                                                href="https://www.freepik.com/premium-vector/cute-astronaut-riding-astronaut-chicken-waving-hand-cartoon-vector-icon-illustration-science_25528645.htm">astronaut
+                                                chicken</Link>
                                         </TableCell>
-                                    </TableRow> 
+                                    </TableRow>
                                 </TableBody>
                             </Table>
                         </CardContent>
