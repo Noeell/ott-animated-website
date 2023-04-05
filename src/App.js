@@ -214,17 +214,30 @@ function App() {
                                 </TableHead>
                                 <TableBody>
                                     <TableRow>
-                                        <TableCell><Link href="https://hotpot.ai/art-generator">AI Image
-                                            Generator</Link> </TableCell>
-                                    </TableRow>
-                                    <TableRow>
-                                        <TableCell><Link
-                                            href="https://developer.mozilla.org/en-US/docs/Web/SVG">...</Link>
+                                        <TableCell>
+                                            <Link href="https://hotpot.ai/art-generator">AI Image Generator</Link> 
                                         </TableCell>
                                     </TableRow>
                                     <TableRow>
-                                        <TableCell><Link href="https://www.svgrepo.com/">Rocket SVG</Link> </TableCell>
+                                        <TableCell>
+                                            <Link href="https://chat.openai.com/">Generated text</Link>
+                                        </TableCell>
                                     </TableRow>
+                                    <TableRow>
+                                        <TableCell>
+                                            <Link href="https://developer.mozilla.org/en-US/docs/Web/SVG">animateTransform</Link>
+                                        </TableCell>
+                                    </TableRow>
+                                    <TableRow>
+                                        <TableCell>
+                                            <Link href="https://www.svgrepo.com/">Rocket SVG</Link>
+                                        </TableCell>
+                                    </TableRow>
+                                    <TableRow>
+                                        <TableCell>
+                                            <Link href="https://www.freepik.com/premium-vector/cute-astronaut-riding-astronaut-chicken-waving-hand-cartoon-vector-icon-illustration-science_25528645.htm">astronaut chicken</Link>
+                                        </TableCell>
+                                    </TableRow> 
                                 </TableBody>
                             </Table>
                         </CardContent>
